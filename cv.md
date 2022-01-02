@@ -27,7 +27,13 @@ I'm aware that soft skills are also essential for developers, and my previous wo
 
 ---
 ### Code example
-
+```
+ let s = "";
+        for (i=1; i<=10; i++) {
+            s += `<img src="images/${i}.png">`;
+        }
+        box.innerHTML = s;
+```
 ---
 ### Work experience
 Previous work experience is not related to programming.
